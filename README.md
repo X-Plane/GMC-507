@@ -47,13 +47,15 @@ This README stays short on purpose. One place to update, one place to look.
 
 ## Quick start (aircraft authors)
 
-1. Copy `GMC507/` to `<aircraft>/plugins/xlua/scripts/GMC507/`.
+1. Copy `GMC507/` to `<aircraft>/plugins/xlua/scripts/GMC507/`. The zip on the [Releases](../../releases) page
+   holds just this folder.
 2. In Plane Maker, **Standard > Objects**, add `../plugins/xlua/scripts/GMC507/3D/GMC507.obj` as an ordinary
    object (not the cockpit object). Put its origin about 6 mm behind the panel face and it sits flush.
 3. Make sure the aircraft's autopilot uses the GFC-700 logic.
 4. Go fly. `laminar/gmc507/popup_toggle` opens the pop-up.
 
-Want ESP too? Copy `AFCS_ESP/` next to it and read [AFCS_ESP/README.md](AFCS_ESP/README.md) first.
+Want ESP too? Copy `AFCS_ESP/` next to it (it has its own zip on the Releases page) and read
+[AFCS_ESP/README.md](AFCS_ESP/README.md) first.
 
 **Needs** X-Plane 12 (tested on 12.4.4), and xLua 2 in the aircraft's `plugins/xlua/` (not included; get it from
 the [XLua repository](https://github.com/X-Plane/XLua)). Tested on Windows only.
