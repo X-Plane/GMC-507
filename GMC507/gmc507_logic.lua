@@ -77,7 +77,7 @@ function Logic.new(api, cfg)
     local function read_key_light()
         if not L.powered then return 0 end
         local d = 1.0
-        if api.getfa and api.has(DIMMER) then d = api.getfa(DIMMER, 0) end
+        if api.getfa and api.has(DIMMER) then d = api.getfa(DIMMER, 0) or 1.0 end
         local v = (d - DIM_LO) / (DIM_HI - DIM_LO)
         return v < 0 and 0 or (v > 1 and 1 or v)
     end
