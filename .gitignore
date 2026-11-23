@@ -38,3 +38,7 @@ luac.out
 *.i*86
 *.x86_64
 *.hex
+
+
+# GMC 507: the 3D unit's model is part of the add-on
+!GMC507/3D/*.obj
