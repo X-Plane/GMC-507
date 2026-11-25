@@ -47,7 +47,7 @@ local function log(msg) print("[GMC507] " .. tostring(msg)) end
 local config = {
     ap_type = "digital",
     min_engage_kias = 0,
-    popup_at_start = 1,
+    popup_at_start = 0,
     disc_flash_s = 3,
     alt_sel_step_ft = 100,
     vs_wheel_fpm = 100,
